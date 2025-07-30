@@ -1,5 +1,5 @@
 import { createWebHistory, createRouter, RouteRecordRaw } from "vue-router";
-import PaidSearchAdAgencyPage from "../pages/PaidSearchAdAgencyPage.vue";
+// import PaidSearchAdAgencyPage from "../pages/PaidSearchAdAgencyPage.vue";
 import SocialMediaAdAgencyPage from "../pages/SocialMediaAdAgencyPage.vue";
 import TraditionalOfflineAdAgencyPage from "../pages/TraditionalOfflineAdAgencyPage.vue";
 import ServicesPage from "../pages/ServicesPage.vue";
@@ -21,13 +21,13 @@ import ContactUsPage from "../pages/ContactUsPage.vue";
 import ErrorPage from "../pages/ErrorPage.vue";
 
 const routes: Array<RouteRecordRaw> = [
+  // {
+  //   path: "/",
+  //   name: "PaidSearchAdAgencyPage",
+  //   component: PaidSearchAdAgencyPage,
+  // },
   {
     path: "/",
-    name: "PaidSearchAdAgencyPage",
-    component: PaidSearchAdAgencyPage,
-  },
-  {
-    path: "/social-media-ad-agency",
     name: "SocialMediaAdAgencyPage",
     component: SocialMediaAdAgencyPage,
   },

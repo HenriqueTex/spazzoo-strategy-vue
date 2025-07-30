@@ -2,10 +2,13 @@
   <div id="preloader" v-if="isLoading">
     <div class="preloader">
       <div class="waviy">
+        <span>S</span>
+        <span>P</span>
         <span>A</span>
-        <span>D</span>
-        <span>L</span>
-        <span>I</span>
+        <span>Z</span>
+        <span>Z</span>
+        <span>O</span>
+        <span>O</span>
       </div>
     </div>
   </div>

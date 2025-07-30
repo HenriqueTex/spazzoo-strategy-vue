@@ -24,6 +24,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul :class="['navbar-nav', className]">
           <li class="nav-item dropdown">
+            <router-link class="nav-link" to="/contact-us">
+              INICIO
+            </router-link>
+          </li>
+          <!-- <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="javascript:void(0)"
@@ -31,7 +36,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              HOME
+              INICIO
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -53,7 +58,7 @@
                 </router-link>
               </li>
             </ul>
-          </li>
+          </li> -->
 
           <li class="nav-item dropdown">
             <a
